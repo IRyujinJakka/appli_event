@@ -1,0 +1,16 @@
+#header{
+    background-color:gray;
+    
+}
+
+#logo{
+    background-color: green;
+}
+
+#main-menu{
+    background-color: pink;
+}
+
+.nav-item{
+    margin-right: 1em;
+}

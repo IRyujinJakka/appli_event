@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../AdminLTE-master"
+		},
+		{
+			"path": "../app_gestionlivraison"
+		}
+	],
+	"settings": {}
+}
