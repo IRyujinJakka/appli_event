@@ -4,37 +4,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/swiper.min.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div class="container-fluid" id="app">
         <section id="header" class="row">
             <div id="logo" class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                <img src="img/blanian.png" alt="logo blanian">
+                <img src="img/blaniann.png" alt="logo blanian">
             </div>
             <div id="main-menu" class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                <ul id="nav" class="nav justify-content-center">
-                   <li class="nav-item"><a href="#" class="nav-link"></a>Menu2</li>
-                   <li class="nav-item"><a href="#" class="nav-link"></a>Menu3</li>
-                   <li class="nav-item"><a href="#" class="nav-link"></a>Menu1</li>
-                   <li class="nav-item"><a href="#" class="nav-link"></a>Menu4</li>
-                   <li class="nav-item"><a href="#" class="nav-link"></a>Menu5</li>
-                   <li class="nav-item"><a href="#" class="nav-link"></a>Menu6</li>
+                   <li class="nav-item"><a href="#" class="nav-link"></a>Accueil</li>
+                   <li class="nav-item"><a href="#" class="nav-link"></a>Prodruit</li>
+                   <li class="nav-item"><a href="#" class="nav-link"></a>Temoignage</li>
+                   <li class="nav-item"><a href="#" class="nav-link"></a>events</li>
+                   <li class="nav-item"><a href="#" class="nav-link"></a>galerie</li>
+                   <li class="nav-item"><a href="#" class="nav-link"></a>contacts</li>
                </ul>
             </div>
-            <div id="btn-offer" class="col-lg-2 col-md-2 col-sm-2 col-xs-12"> <button type="button">Voir offre</button></div>
+            <div id="btn-offer" class="col-lg-2 col-md-2 col-sm-2 col-xs-12"> <button type="button" class="btn btn-danger">Danger</button>
+
+            </div>
         </section>
         <section id="main">
-            <section id="slider"></section>
-            <section id="stats"></section>
-            <section id="product-list"></section>
+            <section id="slider"> <!--devient html pour le slider-->
+                <div class="slider-wrapper">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <!-- Add Pagination -->
+                     <div class="swiper-pagination"></div>
+                </div>
+
+                </div>
+            </section>
+            <section id="stats">
+                <div class="banner">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>nombres de clients</p>
+                            <span class="timer" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></span>
+                      </div>
+                        <div class="col-md-3">box-2</div>
+                        <div class="col-md-3">box-3</div>
+                        <div class="col-md-3">box-4</div>
+                    </div>
+                </div>
+            </section>
+            <section id="product-list" class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Caracteristiques</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">chaises</h6>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col"><div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Caracteristiques</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">chaises</h6>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Caracteristiques</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">chaises</h6>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col"><div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Caracteristiques</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">chaises</h6>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div></div>
+                      </div>
+                    </div>
+                </div>
+            </section>
             <section id="testimonials"></section>
         </section>
         <section id="footer"></section>
     </div>
     
-
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.counTo.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
