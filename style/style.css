@@ -1,14 +1,56 @@
 #header{
-    background-color:#243238;
+    background-color:#141116;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 1em;
     
+}
+
+
+#app{
 }
 
 #logo img {
     width: 80px;
 }
 
+
+#main{
+    padding: 0;
+    
+}
+
 #main-menu{
 }
+
+
+#btn-offer{
+    
+    margin-top: 0.3em;
+}
+  
+#stats{
+    background-color: gray;
+    padding: 3em;
+}
+
+
+
+
+
+
+
+#product-list{
+    padding: 10%;
+}
+
+
+#slider, .slider-wrapper{
+    position: relative;
+    height: 100%;
+}
+
 
 .card{
     width: 18rem;
@@ -18,37 +60,11 @@
     color:white;
 }
 
-#btn-offer{
-    margin-top: 1em;
-}
-
-#slider{
-    background-color: maroon;
-    padding: 10%;
-}
-
-#stats{
-    
-   background-color: magenta;
-   padding: 8%;
-   margin-top: 1%;
-}
-
-#product-list{
-    background-color: yellow;
-    padding: 10%;
-}
-
-
-#slider, .slider-wrapper{
-    position: relative;
-      height: 100%;
-}
 
 .slider-wrapper{
     background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
       color:#000;
       margin: 0;
       padding: 0;
@@ -75,4 +91,23 @@
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+    }
+
+    .swiper-slide img{
+
+        width: inherit;
+    }
+    
+    /* resizing flat icon of stats */
+    
+ 
+
+    .stats-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-stats{
+        text-align: center;
     }
