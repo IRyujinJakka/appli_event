@@ -163,6 +163,9 @@ span{
        
         
     }
+    .timer{
+        font-size: 2.2em;
+    }
 
     /* stylization of icons and text icons */
 
@@ -180,6 +183,8 @@ span{
     border-color: #f49772;
     font-family: raleway;
     font-weight: 700;
+    font-size: .8em;
+    margin-top: .7em;
 
 }
 .btn-primary:hover{
