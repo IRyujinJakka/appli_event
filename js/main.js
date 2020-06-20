@@ -16,3 +16,5 @@ const swiper = new Swiper('.swiper-container', {
 
 // initialization of counter 
 $('.timer').countTo();
+
+
